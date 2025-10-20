@@ -1,0 +1,155 @@
+ p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+.video-title {
+    font-weight: bold;
+    font-size:18px;
+    width: 280px;
+    line-height: 24px;
+}
+.video-stats {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 0px;
+}
+.video-author {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.video-description {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    width: 280px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.apple-text {
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding: 18px 0px;
+}
+.shop-now:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.deals {
+    font-family: arial;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.sales {
+    font-size: 15px;
+    color: red;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+.HTML {
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.beginner {
+    color: gray;
+    margin-bottom: 15px;
+}
+.in-this-course {
+    width: 250px;
+    margin-bottom:15px;
+}
+.get-started {
+    background-color: green;
+    color:white;
+    padding: 10px 15px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shopping {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.see-how {
+    text-align:center;
+    margin-bottom: 15px;
+}
+.learn-more {
+    color: blue;
+    text-align: center;
+}
+.new {
+    color:orange;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 8px 0px;
+    text-align: center;
+}
+.Macbook {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    text-align: center;
+}
+.supercharged {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.from {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.buy-container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.buy {
+    background-color: rgb(63, 63, 250);
+    color:white;
+    border:none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.price {
+    font-size: 30px;
+}
+.usd {
+    font-size: 15px;
+    color: gray;
+}
+.change {
+    color: green;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.after {
+    color: gray;
+}
+.red {
+    color: red;
+}
+.free {
+    color: gray;
+}
+.web {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.here {
+    color: rgb(49, 49, 254);
+}
