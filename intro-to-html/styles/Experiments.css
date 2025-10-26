@@ -1,4 +1,6 @@
-
+p {
+    margin: 0;
+}
 .uber-button {
     background-color: black;
     color: white;
@@ -452,12 +454,14 @@
 }
 
 /* Beginning of exercise 10e. */
+
 .container {
-    display: flex;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: 130px 130px 130px;
+    column-gap: 20px;
+    row-gap: 1rem;
 }
 .oliver {
-    display:inline-block;
     height: 200px;
     width: 130px;
 }
@@ -476,7 +480,6 @@
     margin-bottom: 0px;
 }
 .mutual {
-    display:inline-block;
     font-size: 10px;
     margin-top: 3px;
     margin-left: 3px;
@@ -537,3 +540,111 @@
     height:20px;
     padding: 5px 5px;
 }
+/* start of 12 Exercise */
+.e12 {
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px solid Gray;
+    border-radius: 6px;
+    Height:6rem;
+    width: 18rem;
+}
+.home14 {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+.fourteen {
+    text-align: center;
+    padding: 2px 9px;
+    background-color: blue;
+    color: white;
+    border-radius: 13px;
+}
+.notifications3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+.messages5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+/*end of 12e Exercise */
+
+/*start of 12g*/
+.profile-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.profi {
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    object-fit:cover;
+    margin-right: 8px;
+}
+.info1 {
+    width: 200px;
+    
+}
+.name1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+.handle1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(150, 150, 150);
+    margin-bottom:5px;
+    font-size: 14px;
+}
+.category1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+}
+.follow-button1 {
+    width: 55px;
+    height: 25px;
+    background-color: rgb(29,161,242);
+    color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+/*end of 12g*/
+/*start of 12f*/
+.f12 {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(121, 82, 179);
+    justify-content: space-between
+
+}
+.home1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 6px;
+}
+.search1 {
+    width: 350px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 12px;
+}
+.download1 {
+    height: 30px;
+    width: 90px;
+    background-color: rgb(121, 82, 179);
+    border: 1px solid white;
+    color: white;
+}
+/*end of 12f*/
