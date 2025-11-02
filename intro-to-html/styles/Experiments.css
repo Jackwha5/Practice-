@@ -653,17 +653,16 @@ p {
     display: flex;
     flex-direction: column;
    width: 85%;
-   height: 1000px;
-   border: 1px solid gray; 
-   justify-content: center;
+   height: 700px;
+   border: 4px solid gray; 
+   align-items: center;
 }
 .header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding-left: 20px;
-    align-items:center;
-    max-width: 100%;
+    align-items: center;
+    width: 100%;
     height: 100px;
     border: 1px solid blue;
     text-align:start;
@@ -671,20 +670,124 @@ p {
 }
 .header p {
     font-size: 30px;
+    padding-left: 20px;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .main {
-    height: 81%;
-    width: 70%;
-    border: 2px solid black;
-    margin: 0 130px;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 80%;
+    align-items: center;
 }
-
-.footer {
-    border: 2px solid blue;
-    height: 80px;   
-    max-width: 100%; 
-    background-color: blue;
+.main1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 50%;
+    width: 70%;
+    border: 2px solid white;
+}
+.main2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50%;
+    width: 70%;
+    border-bottom: 2px solid white;
+}
+.main-content {
+    display: flex;
+    background-color: green;
+    border: 2px solid white;
+    color: white;
+    align-items: center;
+    justify-content: center;
     
 }
+.main-content p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.sidebar{
+    background-color: purple;
+    border: 2px solid white;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.sidebar p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.twin{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: orange;
+    border: 2px solid white;
+    color: white;
+}
+.twin p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer {
+    height: 80px;   
+    width: 100%; 
+    background-color: blue;
+    color: white;
+    align-content: center;
+}
+.footer p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+}
+/*end of random practice 1*/
+/* random button*/
+.farty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 60px;
+    gap: 1px;
+}
+.shadow1 {
+    background-color: rgb(100, 40, 55);
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    transition: box-shadow 0.2s,height 0.3s,width 0.3s;
+}
+.shadow1:hover {
+    height: 45px;
+    width: 110px;
+    box-shadow: 0px 5px 5px rgba(50,40,50,2);
+    border: 5px solid rgb(80, 40, 55);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    padding: 10px 10px;
+}
+/*end of random button */
+.eagles {
+    display: flex;
+    border: 1px solid gray;
+     border-radius: 10px;
+    height: 60px;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+}
+.twoot {
+    border-radius: 20px;
+    border: 1px solid rgb(105, 181, 243);
+}
+.twoot:hover {
+    border: 2px solid rgb(105, 181, 270)
+}
+.tweet:hover {
+    background-image:
+}
+/*start of 13a */

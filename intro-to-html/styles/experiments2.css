@@ -1,0 +1,276 @@
+/*start of header */
+body {
+    margin-top: 50px;
+}
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top:0;
+    left:0;
+    right: 0;
+    height: 45px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+.leftside{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+}
+.daphoto{
+    height: 35px; 
+    width: 35px;
+    border-radius: 40px; 
+    margin-left: 20px;
+}
+.olivercat {
+    margin-left: 10px;
+    font-weight: bold;
+}
+.rightside {
+    display: flex; 
+    align-items: center;
+    margin-right: 40px;
+}
+.addfriend {
+    background-color: rgb(72, 125, 159);
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.message1 {
+    background-color: rgb(212, 212, 212);
+    color:black;
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+}
+/*end of header */
+/*start of discord sidebar (14f)*/
+.leftsidebar {
+    position: fixed;
+    left:0;
+    top:45px;
+    bottom: 0;
+    width: 60px;
+    background-color: rgb(52, 51, 51);
+}
+.farleft {
+    margin: 10px 6px;
+}
+.img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.lleftsidebar {
+    position: fixed;
+    left:60px;
+    top: 45px;
+    bottom: 0;
+    width: 130px;
+    background-color: rgb(72, 72, 72);
+}
+.infobox {
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.info1 {
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+}
+.plus {
+    color: rgb(180, 179, 179);
+    font-weight: bold;
+}
+.infobox2 {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.new-videos, .updates , .faq {
+    color: rgb(164, 164, 164);
+    margin-left: 10px;
+    margin-top: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.a13 {
+    display: flex;
+    height: 60px;
+}
+.pinkbox {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    background-color: lightpink;
+}
+.item1 {
+    background-color: black;
+    color: white;
+}
+.bluebox {
+    width: 200px;
+    background-color: lightblue;
+}
+.flexbox{
+    display: flex;
+    flex-direction:row;
+    height: 50px;
+}
+
+.column {
+    background-color: lightpink;
+    width: 100px;
+}
+.column2 {
+    background-color: lightblue;
+    width: 200px;
+}
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.row-item2 {
+    background-color: black;
+    color: white;
+}
+/*13b*/
+.d13 {
+    padding: 10px 15px;
+    width: 400px;
+    border: 1px solid rgb(209, 209, 209);
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.05)
+}
+.all-inboxes {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile-picture {
+    margin-right: 10px;
+}
+.pfp {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.info {
+    flex: 1;
+}
+.email-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+.chewypromotions {
+    font-size: 18px;
+    font-weight: bold;
+}
+.time {
+    font-size: 14px;
+    color: gray;
+}
+.subject {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.message {
+    color: rgb(120,120,120);
+}
+/*13g start */
+.surroundingdiv {
+    display: flex; 
+    flex-direction: row;
+    width: 420px;
+}
+.profile-picture-twitter {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+.profile-picture-twitter-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.allinfo {
+ flex: 1;
+}
+.name-and-tag {
+    margin: 5px 0;
+}
+.name {
+    font-weight: bold;
+    margin-right: 4px;
+}
+.theactualtweet {
+    margin-bottom: 20px;
+}
+.youtube-link {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.graybox {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    
+}
+.videoinfocolumn {
+    flex: 1;     
+}
+.youtubecom {
+    color: gray;
+}
+/*end of 13g*/
+
+/*start of 14a/b */
+.bottom-right {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+}
+.right-sidebar {
+    position: fixed;
+    right:0;
+    bottom: 0;
+    top: 0;
+    width: 100px;
+    background-color: green;
+    color: white;
+}
