@@ -1,6 +1,10 @@
 /*start of header */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body {
-    margin-top: 50px;
+    margin-top:100px;
+    margin-left: 200px;
+    margin-right: 100px;
 }
 .header {
     position: fixed;
@@ -273,4 +277,65 @@ body {
     width: 100px;
     background-color: green;
     color: white;
+}
+.close {
+    position: absolute;
+    top: -10px;
+    left:-10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 9px;
+}
+.bottomrightbox {
+    width: 320px;
+    height: 180px;
+    position: fixed;
+    bottom: 20px;
+    right: 120px;
+    background-color: gray;
+}
+.video-time-length {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family: roboto, ariel;
+    background-color: black;
+    color: white;
+    padding: 2px 4px;
+}
+.clothing-ad-container {
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+.thecloth {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    object-fit: contain;
+}
+.twenty-off-box {
+    position: absolute; 
+    background-color: black;
+    color: white;
+    top: 20px;
+    right: 0px;
+    font-family: Roboto
+}
+.addtocartcontainer {
+    height: 25%;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.7);
+    position: absolute;
+    top: 150px;
+}
+.addtocart {
+    position: absolute;
+    right: 60px;
+    bottom: 10px;
+    border: 1px solid black;
+    padding: 6px 10px;
+    background-color: white;
 }
